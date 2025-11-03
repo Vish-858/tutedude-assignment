@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="top">
+        <h1>Welcome to Tutetude</h1>
+        <p>A project designed by <b>TuteDude</b> to learn HTML</p>
+        <nav>
+            <ul type="bullet">
+                <li><a href="#about">About TD</a></li>
+                <li><a href="#ourmenu">Our Menu</a></li>
+                <li><a href="#taco">Taco Trivia</a></li>
+                <li><a href="#extra">Extras</a></li>
+                <li><a href="#feedback">Feedback Form</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <img src="images.jpg" alt="tutedude image">
+                <figcaption>TuteDude and a Drink</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h4 id="about">About <u type="dotted">TD</u></h4>
+            <article>
+                <p><u>TD</u> was founded in 2021. this demo project was created by TuteDude for learning all major HTML
+                    tags.<br>Level up your career with expert mentorship & internships for FREE</p>
+            </article>
+        </section>
+        <section>
+            <h4 id="ourmenu">Our Menu</h4>
+            <table border="1" style="border-collapse: collapse;">
+                <caption>TuteDude Complete Taco Menu</caption>
+                <tr>
+                    <th rowspan="2">Category</th>
+                    <th rowspan="2">Type</th>
+                    <th colspan="2">Small Portion</th>
+                    <th colspan="2">Large Portion</th>
+                </tr>
+                <tr>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">TuteDude</td>
+                    <td>Crunchy (Beef)</td>
+                    <td>1</td>
+                    <td>$1.25</td>
+                    <td>3</td>
+                    <td>$3.50</td>
+                </tr>
+                <tr>
+                    <td>Crunchy (Chicken)</td>
+                    <td>1</td>
+                    <td>$1.75</td>
+                    <td>3</td>
+                    <td>$3.50</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="1" style="border-collapse: collapse;">
+
+                            <caption>Crunchy (veggie) Nutrient info</caption>
+                            <tr>
+                                <th>Nutrient</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr>
+                                <td>Calories</td>
+                                <td>150 Kcal</td>
+                            </tr>
+                            <tr>
+                                <td>Protin</td>
+                                <td>5 g</td>
+                            </tr>
+                            <tr>
+                                <td>Fiber</td>
+                                <td>4 g</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>1</td>
+                    <td>$1.25</td>
+                    <td>3</td>
+                    <td>$3.00</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Soft TuteDude</td>
+                    <td>soft (Beef)</td>
+                    <td>2</td>
+                    <td>$3.50</td>
+                    <td>4</td>
+                    <td>$6.50</td>
+                </tr>
+                <tr>
+                    <td>Soft (Veggie)</td>
+                    <td>2</td>
+                    <td>$3.00</td>
+                    <td>4</td>
+                    <td>$5.50</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Combos</td>
+                    <td>2 Crunchy + Drink</td>
+                    <td colspan="2">$4.50</td>
+                    <td colspan="2" rowspan="2">N/A</td>
+
+                </tr>
+                <tr>
+                    <td>2 Soft + Drink
+                        <table border="1" style="border-collapse: collapse;">
+                            <caption>Combos Meals Nutrition Facts </caption>
+                            <tr>
+
+                                <th>Item</th>
+                                <th>Calories</th>
+                                <th>Sugar</th>
+                            </tr>
+                            <tr>
+                                <td>Soft Taco</td>
+                                <td>200 Kcal</td>
+                                <td>2 g</td>
+                            </tr>
+                            <tr>
+                                <td>Drink</td>
+                                <td>120 Kcal</td>
+                                <td>25 g</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>320 Kcal</td>
+                                <td>27 g</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td colspan="2">$5.00</td>
+                </Tr>
+
+                <tr>
+                    <td rowspan="2" id="extra">Extras</td>
+                    <td> Chips & Salsa</td>
+                    <td colspan="4">$2.00</td>
+                </tr>
+                <tr>
+                    <td>Guacamole</td>
+                    <td colspan="4">$1.50</td>
+                </tr>
+                <tr>
+                    <td colspan="6"> Average Meal Price Range: $2.00-$6.50</td>
+                </tr>
+
+            </table>
+
+            <br>
+            <a href="#top">Back to Top</a>
+        </section>
+        <section>
+            <h4 id="taco">Taco Trivia</h4>
+            <p>&#9654; When did TuteDude first appear in the United States?</p>
+        </section>
+        <section>
+            <h4>Media Fun</h4>
+            <article>
+                <p>Listen to Taco Music</p>
+                <audio src="taco.mp3" controls></audio>
+            </article>
+            <article>
+                <p>Watch Taco Video</p>
+                <video src="taco.mp4" controls style="width:300px; height:200px;"></video>
+            </article>
+        </section>
+        <section>
+            <H4 id="feedback">Give Us your Feedback</H4>
+            <form action="">
+                <fieldset>
+                    <legend>Your info</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <br>
+                    <label for="taco">Favourite Taco:</label>
+                    <select name="taco" id="taco">
+                        <option value="">Crunchy</option>
+                        <option value="">Soft</option>
+                        <option value="">Spicy</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message"></label>
+                    <br>
+                    <textarea name="message" id="message" rows="4" cols="40"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">submit</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2 id="contact">Contact us</h2>
+            <address>
+                <p><strong>TuteDude</strong><br>123 Taco street<br>Taco Town<br><a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@tutetude.com">info@tutedude.com</a>
+                </p>
+            </address>
+        </section>
+        <p>&copy; 2025 TuteDude. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
